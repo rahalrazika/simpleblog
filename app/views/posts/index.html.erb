@@ -1,1 +1,6 @@
-<h1>Index</h1>
+<h1>Blog Posts </h1>
+<% @posts.each do |post|%>
+<h3><%= post.title %></h3>
+<p><%= post.body %> </p>
+
+<%end%>
