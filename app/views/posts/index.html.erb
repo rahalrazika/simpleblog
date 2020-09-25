@@ -1,6 +1,8 @@
-<h1>Blog Posts </h1>
+<h1 class="text-center">Blog Posts </h1>
 <% @posts.each do |post|%>
-<h3><%= post.title %></h3>
-<p><%= post.body %> </p>
-
+<div class="card bg-light mb-4 text-center"> 
+   <h3><%= post.title%></h3>
+   <p><%= post.body %> </p>
+   <%= link_to "Read More", post_path(post), :class => 'btn btn-outline-secondary w-25 mx-auto mb-2'%>
+</div>
 <%end%>
