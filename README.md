@@ -1,6 +1,6 @@
 # Simple Blog 
 
-This is the sample application for [Ruby on Rails Tutorial: Create your Blog (https://www.youtube.com/watch?v=pPy0GQJLZUM)
+This is the sample application for [Ruby on Rails Tutorial: Create your Blog](https://www.youtube.com/watch?v=pPy0GQJLZUM)
 
 
 
